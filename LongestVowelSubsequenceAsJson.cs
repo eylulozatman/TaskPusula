@@ -42,16 +42,11 @@ public class Program
         return "[" + string.Join(",", jsonParts) + "]";
     }
 
-    public static void Main()
-    {
-        var input = new List<string> { "aeiou", "bcd", "aaa", "miscellaneous" };
-        string output = LongestVowelSubsequenceAsJson(input);
-        Console.WriteLine(output);
-        // Çıktı: [{"word":"aeiou","sequence":"aeiou","length":5},{"word":"bcd","sequence":"","length":0},{"word":"aaa","sequence":"aaa","length":3},{"word":"miscellaneous","sequence":"eou","length":3}]
-    }
+  
 }
 
 
     
+
 
 
